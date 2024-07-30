@@ -72,6 +72,7 @@ section{
     margin-bottom: 80px;
 }
 /* shared style ends here */
+
 /* navbar related styles */
 .nav-bar{
     justify-content: space-between;
@@ -95,6 +96,8 @@ section{
     text-decoration: none;
     color: white;
 }
+/* nav related style ends here */
+
 /* banner section related styles */
 
 .banner-content, .banner-image{
@@ -196,6 +199,7 @@ section{
     
 }
 /* habit section related styles ends here */
+
 /* run-extra-mile related styles starts here */
 .run-extra-mile-container{
     padding: 28px;
@@ -341,4 +345,89 @@ input, select{
 
 /* bmi calculator section  ends here */
 
+/* meet our team related styles starts here */
+.meet-our-team-content> h1{
+    margin-bottom: 2px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 60px;
+}
+.img-1{
+    height: 260px;
+    width: 328px;
+    background-image: url(../images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    background-color: rgb(1, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-2{
+    height: 260px;
+    width: 328px;
+    background-image: url(../images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    background-color: rgb(1, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-3{
+    height: 260px;
+    width: 328px;
+    background-image: url(../images/trainer3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    background-color: rgb(1, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-4{
+    height: 260px;
+    width: 328px;
+    background-image: url(../images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    background-color: rgb(1, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-5{
+    height: 260px;
+    width: 328px;
+    background-image: url(../images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    background-color: rgb(1, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-6{
+    height: 260px;
+    width: 328px;
+    background-image: url(../images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8%;
+    background-color: rgb(1, 0, 0, 0.3);
+    background-blend-mode: overlay;
+}
+.img-brand{
+    margin-top: 220px;
+    padding-left: 15px;
+    line-height: 7px;
+    margin-bottom: 0%;
+}
+
+/* meet our team related styles ends here */
+
 /* main related styles ends here */
+
+/* footer related styles starts here */
+/* footer related s */

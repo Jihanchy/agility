@@ -54,3 +54,146 @@ body{
     color: white;
     margin-left: 9px;
 }
+.dark-1{
+    font-size: 0.9rem;
+    color: rgb(117, 116, 116);
+}
+.section-title{
+    font-size: 2.7rem;
+    font-weight: 800;
+    color: white;
+}
+.section-description{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(117, 116, 116);
+}
+section{
+    margin-bottom: 80px;
+}
+/* shared style ends here */
+/* navbar related styles */
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 25px;
+    padding: 5px 1px 5px 1px;
+}
+.nav-links{
+    align-items: center;
+    padding: 3px;
+    border: 1px solid rgb(78, 76, 76);
+    border-radius: 20px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+/* banner section related styles */
+
+.banner-content, .banner-image{
+    width: 50%;
+    justify-content: center;
+}
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: white;
+    padding:7px;
+
+}
+.banner-description{
+    line-height: 25px;
+    font-weight: 500;
+    color: rgb(117, 116, 116);
+    margin-bottom: 37px;
+}
+.banner-image{
+    text-align: right;
+    position: relative;
+
+}
+.free-videos{
+    text-align: center;
+    width: 27%;
+    height: 10%;
+    padding: 20px;
+    border-radius: 12%;
+    border: 1px solid white;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -450px;
+}
+.free-videos-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 1px;
+    margin-bottom: 0px;
+
+}
+.free-videos-description{
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+.video-tutorial-container{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12%;
+    width: 27%;
+    height: 8%;
+    padding: 20px;
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 90px;
+}
+.circle{
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+/* banner section related styles ends here */
+
+/* main related styles starts here */
+
+/* habit section related styles starts here */
+.habit-content{
+    width: 55%;
+    margin: 70px auto 30px;
+    text-align: center;
+}
+.habit-img-container{
+    text-align: center;
+    margin-top: 53px;
+}
+.img-card img{
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: 4px solid rgb(65, 63, 63);
+}
+.img-card-title{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+.img-card-description{
+    margin-top: 5px;
+    font-size: 1rem;
+    
+}
+/* habit section related styles ends here */
+
+/* main related styles ends here */

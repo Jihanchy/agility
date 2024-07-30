@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
+/* shared styles */
+.bg-light{
+    background-image:linear-gradient(180.00deg, rgb(44, 43, 43), rgb(15, 12, 12) 100%);
+}
+.display-flex{
+    display: flex;
+}
+.brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: tomato;
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: tomato;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+.nav-bar,
+.banner-container,
+.habit-container,
+.run-mile-trunk,
+.meet-our-team-box,
+.bmi-caculator-container
+{
+    width: 80%;
+    margin: 0 auto 80px;
+}
+.btn-primary{
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 39px;
+    border: none;
+    padding: 10px 30px;
+    background-color: tomato;
+    color: white;
+}
+.download-btn{
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 39px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    margin-left: 9px;
+}

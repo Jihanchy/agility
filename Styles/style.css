@@ -69,6 +69,7 @@ body{
 .section-description{
     font-size: 0.9rem;
     font-weight: 500;
+    line-height: 25px;
     color: rgb(117, 116, 116);
 }
 section{
@@ -99,6 +100,11 @@ section{
     text-decoration: none;
     color: white;
 }
+.hamburger-menu{
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
 /* nav related style ends here */
 
 /* banner section related styles */
@@ -116,7 +122,10 @@ section{
 }
 .text-primary{
 
-    font-family: 'Miama', sans-serif;
+    font-family: 'miama', sans-serif;
+    line-height: 80px;
+    font-size: 9rem;
+    font-weight: 500;
 
 }
 .banner-description{
@@ -131,13 +140,17 @@ section{
 
 }
 .free-videos{
-    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+
+    /* opacity: 10000%; */
+
+    text-align: left;
     width: 27%;
     height: 10%;
     padding: 20px;
-    border-radius: 12%;
-    border: 1px solid white;
+    border-radius: 12px;
     position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     margin-left: 400px;
     margin-top: -450px;
 }
@@ -154,12 +167,14 @@ section{
     margin-bottom: 6px;
 }
 .video-tutorial-container{
-    border: 1px solid white;
     display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
     justify-content: center;
     align-items: center;
     gap: 12px;
-    border-radius: 12%;
+    border-radius: 12px;
     width: 27%;
     height: 8%;
     padding: 20px;
@@ -261,7 +276,7 @@ section{
     border-radius: 10px;
     padding-top: 25px ;
     padding-bottom: 25px;
-    gap: 5px;
+    gap: 7px;
     
 }
 .agility-card-1{
@@ -271,7 +286,7 @@ section{
     padding: 35px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 17px;
     border-radius: 20px;
 }
 .agility-card-1-title{
@@ -301,7 +316,7 @@ section{
 }
 .agility-card-2{
     width: 50%;
-    gap: 5px;
+    gap: 8px;
     
 }
 .agility-card-2-1{
@@ -318,6 +333,7 @@ border-radius: 20px;
     width: 100%;
     margin-left: 18px;
     margin-top: 0px;
+    border-radius: 17px;
 }
 .agility-card-2-1-text{
     text-align:left;
@@ -581,7 +597,7 @@ hr{
 }
 .hr-content{
     width: 80%;
-    margin: 15px auto 25px;
+    margin: 15px auto 0px;
     color: gray;
     font-size: 1.5rem;
     text-align: center;

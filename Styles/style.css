@@ -258,6 +258,7 @@ section{
     line-height: 60px;
 }
 .run-extra-mile-description{
+    width:80% ;
     font-size: 0.9rem;
     line-height: 23px;
     margin-bottom: 37px;
@@ -265,6 +266,7 @@ section{
 
 }
 .run-extra-mile-btn{
+    width: 45%;
     margin-bottom: 0px;
     padding: 15px 70px;
 }
@@ -615,23 +617,9 @@ hr{
 
 
 @media screen and (max-width:576px) {
+    /* shared styles related responsive */
     .section-title{
         font-size: 2.3rem;
-    }
-    .nav-links{
-        display: none;
-    }
-    .hamburger-menu{
-        display: block;
-    }
-    .banner-container{
-        flex-direction: column;
-    }
-    .banner-content, .banner-image{
-        width: 95%;
-     }
-    .banner-title{
-        font-size: 2.7rem;
     }
     .nav-bar,
     .banner-container,
@@ -643,6 +631,23 @@ hr{
     {
         width: 92%;
         margin: 0 auto 50px;
+    }
+    .banner-container,
+    .run-extra-mile-container{
+        flex-direction: column;
+    }
+    /* header related responsive starts here */
+    .nav-links{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .banner-content, .banner-image{
+        width: 95%;
+     }
+    .banner-title{
+        font-size: 2.7rem;
     }
     .nav-bar{
         margin-bottom: 11px;
@@ -686,8 +691,11 @@ hr{
         margin-top: -320px;
         margin-left: 20px;
     }
+    /* header related responsive ends here */
+
+    /* change your habit section related responsive starts here */
     .habit-content{
-        width: 95%;
+        width: 100%;
         margin: 5px auto 5px;
         text-align: center;
     }
@@ -697,4 +705,33 @@ hr{
         gap: 30px;
         width: 75%;
     }
+    /* change your habit section related responsive ends here */
+    
+    /* run extra mile section related responsive starts here */
+    .run-extra-mile-content{
+        width: 100%;
+        text-align: left;
+        padding: 8px;
     }
+    .run-extra-mile-content>h1{
+        line-height: 50px;
+    }
+    .run-extra-mile-description{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .run-extra-mile-img{
+        width: 100%;
+    }
+    .run-extra-mile-img> img{
+        width: 100%;
+    }
+    .run-extra-mile-btn{
+        width:95%;
+        margin-bottom: 0px;
+        padding: 15px 50px;
+        margin: 20px auto;
+    }
+    /* run extra mile section related responsive ends here */
+
+}

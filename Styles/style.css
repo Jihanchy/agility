@@ -588,6 +588,7 @@ footer{
 .footer-description{
     line-height: 23px;
     color: gray;
+    width: 80%;
 }
 .footer-nav-title{
     font-size: 2rem;
@@ -611,7 +612,7 @@ hr{
     color: gray;
     font-size: 1.5rem;
     text-align: center;
-    padding: 15px;
+    padding: 15px 15px 30px;
 }
 
 /* footer related styles ends here */
@@ -631,7 +632,8 @@ hr{
     .meet-our-team-box,
     .bmi-calculator-container,
     .agility-card-container,
-    .agility-card-1
+    .agility-card-1,
+    .footer-container
     {
         max-width: 92%;
         margin: 0 auto 50px;
@@ -640,7 +642,9 @@ hr{
     .run-extra-mile-container,
     .agility-card-container,
     .agility-card-1-img,
-    .bmi-calculator-container{
+    .bmi-calculator-container,
+    .footer-container,
+    .footer-nav{
         flex-direction: column;
     }
     /* header related responsive starts here */
@@ -820,12 +824,46 @@ hr{
 }
 .img-1{
     display: none;
-
 }
 .img-4{
     display: none;
 }
-
 /* meet-our-team section related responsive ends here */
+
+/* footer section related responsive starts here */
+.footer-container{
+    text-align: left;
+    align-items: start;
+
+    width: 90%;
+    
+}
+.footer-content{
+    width:100%;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.footer-description{
+    width: 98%;
+    font-size: 1.1rem;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-nav{
+    width: 70%;
+    gap: 5px;
+    margin-top: 0px;
+}
+.footer-nav-title{
+    margin-top: 10px;
+}
+hr{
+    width: 90%;
+}
+
+
+/* footer section related responsive ends here */
+
 
 }

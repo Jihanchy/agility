@@ -205,6 +205,8 @@ section{
 .habit-img-container{
     text-align: center;
     margin-top: 53px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 .img-card img{
     border-radius: 50%;
@@ -613,6 +615,9 @@ hr{
 
 
 @media screen and (max-width:576px) {
+    .section-title{
+        font-size: 2.3rem;
+    }
     .nav-links{
         display: none;
     }
@@ -681,5 +686,16 @@ hr{
         margin-top: -320px;
         margin-left: 20px;
     }
-    
+    .habit-content{
+        width: 95%;
+        margin: 5px auto 15px;
+        text-align: center;
+    }
+    .habit-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        width: 85%;
+        justify-items: center;
+        text-align: center;
+    }
     }

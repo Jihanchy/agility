@@ -11,7 +11,7 @@
 </head>
 <body>
    <!-- header starts here -->
-    <header class="bg-light ">
+    <header class="bg-light hide">
     <!-- nav bar starts here -->
         <nav class="nav-bar display-flex">
         <h3 class="brand"><i>Agility</i></h3>
@@ -64,7 +64,7 @@
    <!-- main section starts here -->
    <main>
      <!-- habit section starts here -->
-      <section class="habit-container ">
+      <section class="habit-container hide">
         <div class="habit-content">
             <h1 class="section-title">
                 Change Your Habits
@@ -108,7 +108,7 @@
       <!-- habit section ends here -->
 
        <!-- run extra mile section starts here -->
-        <section class="run-mile-trunk ">
+        <section class="run-mile-trunk hide ">
             <div class="run-extra-mile-container display-flex">
                 <div class="run-extra-mile-content">
                     <h1 class="section-title">
@@ -127,7 +127,7 @@
             </div>
         </section>
         <!-- run extra mile ends here -->
-        <section class="agility-content">
+        <section class="agility-content hide">
             <div class="agility-card-container display-flex">
                 <div class="agility-card-1">
                     <div>
@@ -165,14 +165,14 @@
             </div>
         </section>
          <!-- bmi calculator section starts here -->
-          <div class="habit-content bmi-content">
+          <div class="habit-content bmi-content hide">
             <h1 class="section-title">BMI Calculator</h1>
             <p class="section-description">A BMI calculator determines body
                  mass index by dividing weight (kg) by height (m²).
                   It helps assess healthy weight ranges.
              </p>
           </div>
-          <section class="bmi-calculator-section">
+          <section class="bmi-calculator-section hide">
             <div class="bmi-calculator-container display-flex">
                 <div class="bmi-chart-container">
                     <p class="bmi-chart-title">BMI Calculator Chart</p>
@@ -215,9 +215,9 @@
                         </p>
                     </div>
                     <form class="calculate-bmi-input-field">
-                        <div class="box-1" id="box"><input type="text" name="" id="" placeholder="Height/cm"></div>
-                        <div class="box-2" id="box"><input type="text" name="" id="" placeholder="weight/kg"></div>
-                        <div class="box-3" id="box"><input type="text" name="" id="" placeholder="Age"></div>
+                        <div class="box-1" id="box"><input type="text" name="" id="box-size" placeholder="Height/cm"></div>
+                        <div class="box-2" id="box"><input type="text" name="" id="box-size" placeholder="weight/kg"></div>
+                        <div class="box-3" id="box"><input type="text" name="" id="box-size" placeholder="Age"></div>
                         <div class="box-4" id="box"><select name="" id=""><option value="">Sex</option></select></div>
                         <div class="box-5" id="box"><select name="" id=""><option value="">Select an activity factor</option></select></div>
 
@@ -230,7 +230,7 @@
           </section>
           <!-- bmi calculator section ends here -->
           <!-- meet our team section starts here -->
-           <section class="meet-our-team-box hide">
+           <section class="meet-our-team-box">
             <div class="meet-our-team-content habit-content">
                 <h1 class="section-title">Meet Our Team</h1>
                 <p class="section-description">Meet our fitness team,

@@ -627,13 +627,16 @@ hr{
     .run-mile-trunk,
     .meet-our-team-box,
     .bmi-calculator-container,
-    .agility-card-container
+    .agility-card-container,
+    .agility-card-1
     {
         width: 92%;
         margin: 0 auto 50px;
     }
     .banner-container,
-    .run-extra-mile-container{
+    .run-extra-mile-container,
+    .agility-card-container,
+    .agility-card-1-img{
         flex-direction: column;
     }
     /* header related responsive starts here */
@@ -733,5 +736,35 @@ hr{
         margin: 20px auto;
     }
     /* run extra mile section related responsive ends here */
+
+    /* agility card section related responsive starts here */
+      .agility-card-1{
+        width: 85%;
+        margin: 0 auto 10px;
+        padding: 30px;
+      }
+      .agility-card-1-img{
+        gap: 15px;
+        align-items:end;
+      }
+      .agility-btn{
+        width:200px;
+        margin-right: 130px;
+      }
+      .agility-card-2{
+        width: 100%;
+        flex-direction: column;
+      }
+      .agility-card-2-1,
+      .agility-card-2-2{
+        width: 90%;
+        flex-direction: column-reverse;
+        gap: 20px;
+      }
+      .agility-card-2-1-title{
+        margin-top: 5px;
+      }
+    /* agility card section related responsive ends here */
+
 
 }

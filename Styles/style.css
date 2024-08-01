@@ -148,9 +148,11 @@ section{
     /* opacity: 10000%; */
 
     text-align: left;
-    width: 27%;
-    height: 10%;
-    padding: 20px;
+    /* width: 27%;
+    height: 10%; */
+    width: 143px;
+    height: 60px;
+    padding: 15px;
     border-radius: 12px;
     position: absolute;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -173,14 +175,15 @@ section{
     display: flex;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
-
     justify-content: center;
     align-items: center;
     gap: 12px;
     border-radius: 12px;
-    width: 27%;
-    height: 8%;
-    padding: 20px;
+    /* width: 27%;
+    height: 8%; */
+    width: 143px;
+    height: 50px;
+    padding: 15px;
     position: absolute;
     margin-top: -160px;
     margin-left: 90px;
@@ -693,7 +696,7 @@ hr{
     .free-videos{
         width: 143px;
         padding: 13px 13px;
-        margin-left: 210px;
+        margin-left: 205px;
         margin-top: -530px;
     }
     .video-tutorial-container{
